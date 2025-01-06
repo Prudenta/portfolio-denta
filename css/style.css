@@ -2,9 +2,11 @@
 :root {
     --primary-color: #2d3436;
     --secondary-color: #0984e3;
+    --secondary-color2: #03365e;
     --accent-color: #00b894;
     --bg-color: #f5f6fa;
     --text-color: #2d3436;
+    --text-color2: #ffffff;
     --light-gray: #dfe6e9;
     --white: #ffffff;
 }
@@ -18,25 +20,25 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--white);
+    background-color: var(--secondary-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 1rem 0;
 }
 
 .navbar-brand {
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--text-color2);
 }
 
 .nav-link {
     font-weight: 500;
-    color: var(--text-color) !important;
+    color: var(--text-color2) !important;
     padding: 0.5rem 1rem !important;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover, .nav-link.active {
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color2) !important;
 }
 
 /* Hero Section */

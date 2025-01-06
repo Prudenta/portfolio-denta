@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Gallery</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" style="margin-top: 76px;">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            
+
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-primary me-2 mb-2 active" data-filter="all">All</button>
+                    <button class="btn btn-outline-primary me-2 mb-2" data-filter="web">Web Development</button>
+                    <button class="btn btn-outline-primary me-2 mb-2" data-filter="design">Design</button>
+                    <button class="btn btn-outline-primary mb-2" data-filter="app">Mobile Apps</button>
+                </div>
+            </div>
+
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 project-item fade-in" data-category="web">
+                    <div class="card h-100">
+                        <img src="./projek.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">AI Pelindo Project</h5>
+                            <p class="card-text">A fully responsive AI website built with modern technologies colaborated with candra's.</p>
+                            <div class="d-flex gap-2 flex-wrap">
+                                <span class="badge bg-primary">HTML5</span>
+                                <span class="badge bg-primary">CSS3</span>
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-primary">Vite Framework</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="https://lautara-port.vercel.app/dashboard" class="btn btn-outline-primary btn-sm">View Details</a>
+                            <a href="https://lautara-port.vercel.app/dashboard" class="btn btn-primary btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
